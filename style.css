@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+img.pizzas{
+    max-width: 200px;
+}
+
+.flex{
+    display: flex;
+}
+
+.section-container{
+    flex-direction: column;
+    padding: 5%;
+}
+
+.space-between{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    height: 50px;
+    width: 100%;
+}
+
+nav>div{
+    padding: 0px 5px;
+}
+
+nav img{
+    height: 30px;
+}
+
+#cart{
+    font-weight: bold;
+    align-items: center;
+}
+
+header{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmsbBPYXGlDNEJYmimgV1mSxDYGbRQOj9pAQ&usqp=CAU");
+    background-size: 100% 100%;
+    color: white;
+}
+
+.header-text{
+    flex-direction: column;
+    max-height: 300%;
+    max-width: 20%;
+    padding: 4% 5%;
+}
+
+header h1{
+    font-size: 7vh;
+}
+
+.section{
+    margin: 4% 0%;
+}
+
+.button{
+    cursor: pointer;
+    background-color: #6095ff;
+    color: white;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.buy img{
+    width: 20px;
+    padding-left: 5px;
+}
+
+.buy{
+    margin-top: 15px;
+    padding-bottom: 50px;
+
+}
+
+.what{
+    display: inline;
+}
+
+#head{
+    margin-bottom: 100px;
+}
+
+footer{
+    height: 300px;
+    background-image: url(" http://i1.faceprep.in/prograd-junior/footer-bg.png");
+    background-size: 100% 100%;
+    color: white;
+    padding: 0% 5%;
+}
+
+#about{
+    color: blueviolet;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.aligning{
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    background-color: #F50A5F;
+    padding: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.aligning>h3{
+    font-size: 35px;
+    margin: 22px 0px;
+}
+
+#details{
+    flex-direction: column;
+    text-align: right;
+}
+
+.buy p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+.container{
+    flex-wrap: wrap;
+}
+
+h6{
+    font-size: 17px;
+}
+
+.Pizzas{
+    width: 350px;
+    height: 250px;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 600px){
+    .wrap-reverse{
+        flex-wrap: wrap-reverse;
+    }
+
+    .container{
+        text-align: center;
+    }
+    .button{
+        margin: 0% 2%;
+    }
+}
